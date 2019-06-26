@@ -7,10 +7,11 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Static site for Share to save' }
+      { hid: 'description', name: 'description', content: 'Ditch disposables to save the planet.' },
+      { hid: 'title', name: 'title', content: 'Share to save' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/jpeg', href: '/plates.jpeg' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
