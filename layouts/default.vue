@@ -198,6 +198,14 @@
       return {
         title: 'Share to save'
       }
+    },
+    head () {
+      return {
+        meta: [
+          { hid: 'og:image', property: 'og:image', content: 'https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg' },
+          { hid: 'og:title', property: 'og:title', content: 'Share to save' }
+        ]
+      }
     }
   }
 </script>
