@@ -202,8 +202,9 @@
     head () {
       return {
         meta: [
-          { hid: 'og:image', property: 'og:image', content: 'https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg' },
-          { hid: 'og:title', property: 'og:title', content: 'Share to save' }
+          { hid: 'og:image', property: 'og:image', itemprop: 'image', content: '/plates.jpeg' },
+          { hid: 'og:title', property: 'og:title', content: 'Share to save' },
+          { hid: 'og:description', property: 'og:description', content: 'Ditch disposables to save the planet.' }
         ]
       }
     }
